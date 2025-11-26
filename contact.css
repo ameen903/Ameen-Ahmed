@@ -1,0 +1,23 @@
+ body{
+    background-color: lightgray;
+
+ }
+ h1{
+    color: black;
+    position: absolute;
+    left: 700px;
+    top: 100px;
+ }
+ h2{
+    color: black;
+    position: absolute;
+    left: 700px;
+    top: 570px;
+ }
+h3{
+    color: black;
+    position: absolute;
+    left: 700px;
+    top: 620px;
+
+ }
