@@ -2,13 +2,177 @@
  <html lang="en">
  <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MY Resume</title><link rel="stylesheet" href="resume.css">
- </head>
- <body>
-    <h1>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+   <title>MY Resume</title>
+   <link rel="stylesheet" href="styles.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.min.js"></script>
+</head>
+<body>
+   <div class="background-grid" aria-hidden="true"></div>
+   <header class="header container">
+      <div class="site-brand">
+         <div class="logo"><i class="fa-solid fa-user-astronaut"></i></div>
+         <div class="brand-name">Ameen Ahmed</div>
+      </div>
+      <nav class="nav">
+         <a href="index.html">Home</a>
+         <a href="resume.html">Resume</a>
+         <a href="projects.html">Projects</a>
+         <a href="blogs.html">Blogs</a>
+         <a href="contact.html" class="cta">Contact</a>
+      </nav>
+   </header>
 
-    </h1>
-   <img src="Screenshot 2025-11-26 003818.png" alt="">
+   <main class="container">
+      <div id="resume-card" class="resume-card">
+         <div class="resume-header">
+            <div class="resume-photo"><img src="https://i.postimg.cc/HL34J1z4/Screenshot-2025-11-26-003313.png" alt="Ameen Ahmed" style="width:100%;height:100%;object-fit:cover"></div>
+            <h1> Ameen Ahmed</h1>
+            <div class="resume-meta">ahmedtamjid2006@gmail.com • +8801726738530 • Bangladesh • <a href="https://github.com/ameen903">github.com/ameen903</a></div>
+            <a class="download-btn" id="downloadBtn" href="#" role="button">Download Resume</a>
+         </div>
+
+         <div class="resume-content">
+            <section class="summary">
+               <h2>Summary</h2>
+               <p>Frontend developer focused on building clean, responsive and user-friendly interfaces. Passionate about solving problems, learning new technologies and improving user experience.</p>
+            </section>
+
+      <section class="education">
+         <h2>Education</h2>
+         <div class="edu-item">
+            <div class="edu-title">United International University</div>
+            <div class="edu-period">2025 — 2029</div>
+            <div class="edu-sub">Bachelor of Science — Computer Science and Engineering — Bangladesh</div>
+         </div>
+      </section>
+
+         <section class="skills section">
+            <h2>Skills, technologies & interests</h2>
+            <div class="section" style="margin-top:12px">
+               <div class="section-title">Frontend</div>
+               <div class="chips">
+                  <div class="chip">HTML</div>
+                  <div class="chip">CSS</div>
+                  <div class="chip">JavaScript</div>
+                  <div class="chip">React</div>
+                  <div class="chip">Tailwind CSS</div>
+                  <div class="chip">Responsive Design</div>
+                  <div class="chip">UI/UX Fundamentals</div>
+               </div>
+            </div>
+
+            <div class="section" style="margin-top:12px">
+               <div class="section-title">Programming Languages</div>
+               <div class="chips">
+                  <div class="chip">JavaScript</div>
+                  <div class="chip">C</div>
+               </div>
+            </div>
+
+            <div class="section" style="margin-top:12px">
+            <div class="section-title">Frameworks & Libraries</div>
+            <div class="chips">
+               <div class="chip"><i class="fa-brands fa-react"></i> React</div>
+               <div class="chip">Tailwind CSS</div>
+               <div class="chip">Responsive Design</div>
+               <div class="chip">UI/UX Fundamentals</div>
+            </div>
+         </div>
+
+         <div class="section" style="margin-top:12px">
+            <div class="section-title">Mobile & UI</div>
+            <div class="chips">
+               <div class="chip">Flutter / Dart</div>
+               <div class="chip">React Native</div>
+            </div>
+         </div>
+
+         <div class="section" style="margin-top:12px">
+            <div class="section-title">AI, LLM & Tools</div>
+            <div class="chips">
+               <div class="chip">LangChain / OpenAI</div>
+            </div>
+         </div>
+
+         <div class="section" style="margin-top:12px">
+            <div class="section-title">Databases & Messaging</div>
+            <div class="chips">
+               <div class="chip">Postgres SQL</div>
+               <div class="chip">MongoDB</div>
+            </div>
+         </div>
+
+         <div class="section" style="margin-top:12px">
+            <div class="section-title">DevOps & Cloud</div>
+            <div class="chips">
+               <div class="chip">Docker</div>
+               <div class="chip">Kubernetes</div>
+               <div class="chip">AWS / Azure</div>
+            </div>
+         </div>
+
+         <h3>Tools & Technologies</h3>
+         <ul>
+            <li>VS Code · Git · GitHub · Adobe Photoshop · Canva · Figma</li>
+         </ul>
+
+         <h3>Interests</h3>
+         <ul>
+            <li>Travel · DIY Home Projects · Programming · Photography · Learning new technologies</li>
+         </ul>
+            </section>
+
+            <section class="section">
+               <h2>Experience</h2>
+                  <div class="edu-item">
+                  <div class="edu-title">Kanect.live</div>
+                  <div class="edu-period">2023 – Present</div>
+                           <ul>
+                              <li>Design and build small client websites and landing pages.</li>
+                              <li>Convert Figma/Canva designs into responsive frontend code.</li>
+                              <li>Optimize pages for speed and accessibility.</li>
+                              <li>Work with clients to understand requirements and deliver solutions.</li>
+                           </ul>
+               </div>
+
+               
+            </section>
+
+            <section class="section">
+               <h2>Project Work</h2>
+               <ul>
+                  <li><strong>Portfolio Website</strong> — Personal portfolio website built to showcase projects, skills and experience. (HTML, CSS, JavaScript)</li>
+                  <li><strong>Responsive Landing Page</strong> — Modern landing page with mobile-first design and clean layout. (HTML, Tailwind CSS)</li>
+               </ul>
+            </section>
+
+            <!-- removed duplicate education block (already listed earlier) -->
+         </div>
+      </div>
+   </main>
+
+   <footer class="footer container">
+       <div>© 2025 Ameen Ahmed</div>
+       <div><a href="https://github.com/ameen903">GitHub</a> · <a href="https://www.linkedin.com">LinkedIn</a></div>
+   </footer>
+   <script>
+      document.getElementById('downloadBtn').addEventListener('click', function(e){
+         e.preventDefault();
+         const element = document.getElementById('resume-card');
+         const opt = {
+            margin:       10,
+            filename:     'Ameen-Ahmed-Resume.pdf',
+            image:        { type: 'jpeg', quality: 0.98 },
+            html2canvas:  { scale: 2 },
+            jsPDF:        { unit: 'mm', format: 'a4', orientation: 'portrait' }
+         };
+         html2pdf().set(opt).from(element).save();
+      });
+   </script>
  </body>
  </html>
