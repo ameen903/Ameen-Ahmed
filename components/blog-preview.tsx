@@ -1,4 +1,4 @@
-'use client'
+f'use client'
 
 import { MDXRemote } from "next-mdx-remote/rsc"
 import { components } from "@/components/mdx-components"
@@ -15,7 +15,7 @@ interface BlogPreviewProps {
     readTime?: string
   }
   content: string
-}
+} 
 
 export function BlogPreview({ frontmatter, content }: BlogPreviewProps) {
   return (
